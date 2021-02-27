@@ -1,6 +1,6 @@
-# `Nombre del tema`
+# Estructuras de decisión
 
-## Ejercicio: `<Título del ejercicio>`
+## Ejercicio: ISR
 
 ## Objetivos
 - Formular una solución efectiva a un problema que incorpora `<recursion>, <user-defined functions>, <iteration>, <conditionals>`.
@@ -19,13 +19,26 @@
     - [diagrams.net](https://app.diagrams.net/) es una herramienta gratuita y fácil de usar con la que puedes crear diagramas de flujo. 
     - Puedes ver un ejemplo de como subir diagramas de flujo a GitHub [aquí](https://youtu.be/oy5nhA7QpNI).
 
-- **Diseña un programa para `<...>`**
+- **Diseña un programa para calcular el impuesto sobre la renta (ISR) correspondiente a un sueldo mensual dado`<...>`**. El ISR se calcula usando la tarifa de la siguiente tabla. 
+
+Límite inferior ($) | Límite superior ($) | Cuota fija ($) | Porciento a aplicarse sobre el excedente del límite inferior
+----------|-------------|----------|----
+0.01      | 3,644.94    |    12.88 | 10
+3,644.95  | 7,446.19    |   303.76 | 20
+7,466.20  | 10,298.35   | 1,063.92 | 30
+10,298.36 | en adelante | 3,327.42 | 35
+
+*Uso de la tabla*: se localiza en qué renglón queda el sueldo, se le resta el límite inferior (columna 1) correspondiente, este resultado (se le llama excedente) se multiplica por el porcentaje de la última columna para obtener el impuesto marginal. El ISR total se calcula sumando este impuesto marginal a la cuota fija del renglón
 
 - Codifica tu solución en el archivo [`main.py`](/main.py).
    
-- Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas `<user prompt> <output> <file>`:
+- Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```
-  <format example>
+  Sueldo: 5000
+  ISR: 574.77
+  
+  Sueldo: 20000
+  ISR: 6722.994
   ```
   
 - Prueba tu programa corriéndolo varias veces con diferentes entradas. Verifica que tu algoritmo produzca las salidas correctas. Pon atención especial a los casos que pudieran ser problemáticos de manejar (casos límite).
@@ -47,8 +60,6 @@
 ## Entrega
 1. Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo y código, en un informe tal como se describe en los [requisitos para entrega de tareas](https://canvas.iteso.mx/courses/12856/modules/items/418369) en Canvas. También los puedes consultar [aquí](/report/report_example.pdf). No olvides incluir portada y conclusiones.
 
-1. Complete and submit your program as outlined in this [instructional video](https://youtu.be/SrJ_c8S1_D8).
-
 2. Agrega el diagrama de flujo a la carpeta [`flowchart`](/flowchart) (puedes ver un [ejemplo de cómo se hace](https://youtu.be/oy5nhA7QpNI)).
 
 3. Agrega el informe en PDF a la carpeta [`report`](/report).
@@ -56,9 +67,8 @@
 ## Casos de prueba de ejemplo
 | Entradas | Salidas |
 |:---------|:--------|
-| `entrada11`<br>`entrada12` | `salida11`<br>`salida12`<br>`salida13` |
-| `entrada21` | `salida21`<br>`salida22` |
-| `entrada31`<br>`entrada32`<br>`entrada33`  | `salida21`<br>`salida22` |
+| `5000` | `574.77` |
+| `20000` | `6722.994` |
 
 ## Rúbrica
 Verifica tu entrega contra esta rúbrica para maximizar tu calificación. Los puntos se indican en porcentaje.
