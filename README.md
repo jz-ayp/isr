@@ -16,7 +16,7 @@ Límite inferior ($) | Límite superior ($) | Cuota fija ($) | Porciento a aplic
 
 *Uso de la tabla*: se localiza en qué renglón queda el sueldo, se le resta el límite inferior (columna 1) correspondiente, este resultado (se le llama excedente) se multiplica por el porcentaje de la última columna para obtener el impuesto marginal. El ISR total se calcula sumando este impuesto marginal a la cuota fija del renglón
 
-- Codifica tu solución en el archivo [`main.py`](/main.py).
+- Codifica tu solución en el archivo [`isr.py`](/isr.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```
