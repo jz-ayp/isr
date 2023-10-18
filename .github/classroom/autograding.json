@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "Test0000100",
+      "name": "1.00",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "1",
       "output": "12.979",
       "comparison": "included",
@@ -11,9 +11,9 @@
       "points": 1
     },
     {
-      "name": "Test0050000",
+      "name": "500.00",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "500",
       "output": "62.879",
       "comparison": "included",
@@ -21,9 +21,9 @@
       "points": 1
     },
     {
-      "name": "Test0364494",
+      "name": "3,644.94",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "3644.94",
       "output": "377.373",
       "comparison": "included",
@@ -31,9 +31,9 @@
       "points": 1
     },
     {
-      "name": "Test0364495",
+      "name": "3,644.95",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "3644.95",
       "output": "303.76",
       "comparison": "included",
@@ -41,9 +41,9 @@
       "points": 1
     },
     {
-      "name": "Test0500000",
+      "name": "5,000.00",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "5000",
       "output": "574.77",
       "comparison": "included",
@@ -51,9 +51,9 @@
       "points": 1
     },
     {
-      "name": "Test0744619",
+      "name": "7,446.19",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "7446.19",
       "output": "1064.008",
       "comparison": "included",
@@ -61,9 +61,9 @@
       "points": 1
     },
     {
-      "name": "Test0744620",
+      "name": "7,446.20",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "7446.2",
       "output": "1063.92",
       "comparison": "included",
@@ -71,9 +71,9 @@
       "points": 1
     },
     {
-      "name": "Test1000000",
+      "name": "10,000.00",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "10000",
       "output": "1830.06",
       "comparison": "included",
@@ -81,9 +81,9 @@
       "points": 1
     },
     {
-      "name": "Test1029835",
+      "name": "10,298.35",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "10298.35",
       "output": "1919.565",
       "comparison": "included",
@@ -91,9 +91,9 @@
       "points": 1
     },
     {
-      "name": "Test1029836",
+      "name": "10,298.36",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "10298.36",
       "output": "3327.42",
       "comparison": "included",
@@ -101,9 +101,9 @@
       "points": 1
     },
     {
-      "name": "Test2000000",
+      "name": "20,000.00",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 isr.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 isr.py",
       "input": "20000",
       "output": "6722.994",
       "comparison": "included",
